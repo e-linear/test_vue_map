@@ -10,7 +10,7 @@ export default {
     mounted() {
   const map = new mapboxgl.Map({
     container: this.$refs.mapContainer,
-    style: os.environ("MAPBOX_STYLE")
+    style: os.environ("MAPBOX_STYLE"),
     center: [-87.844, 41.790],
     zoom: 9,
   });
