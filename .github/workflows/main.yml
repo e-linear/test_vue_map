@@ -20,6 +20,10 @@ concurrency:
   group: 'pages'
   cancel-in-progress: true
 
+env:
+  MAPBOX_ACCESS_CODE: ${{ secrets.MAPBOX_ACCESS_CODE }}
+  MAPBOX_STYLE: ${{ secrets.MAPBOX_STYLE }}
+
 jobs:
   # Single deploy job since we're just deploying
   deploy:
