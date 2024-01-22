@@ -4,7 +4,7 @@
 
 <script>
 import mapboxgl from "mapbox-gl";
-mapboxgl.accessToken = MAPBOX_ACCSES_TOKEN
+mapboxgl.accessToken = MAPBOX_ACCESS_TOKEN
 
 export default {
     mounted() {
