@@ -4,13 +4,13 @@
 
 <script>
 import mapboxgl from "mapbox-gl";
-mapboxgl.accessToken = {{ secret.MAPBOX_ACCESS_TOKEN }}
+mapboxgl.accessToken = os.environ("MAPBOX_ACCESS_TOKEN")
 
 export default {
     mounted() {
   const map = new mapboxgl.Map({
     container: this.$refs.mapContainer,
-    style: {{ secret.MAPBOX_STYLE }}, // Replace with your preferred map style
+    style: os.environ("MAPBOX_STYLE")
     center: [-87.844, 41.790],
     zoom: 9,
   });
