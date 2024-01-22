@@ -4,7 +4,7 @@
 
 <script>
 import mapboxgl from "mapbox-gl";
-mapboxgl.accessToken = os.environ("MAPBOX_ACCESS_TOKEN")
+mapboxgl.accessToken = os.environ("MAPBOX_ACCESS_KEY")
 
 export default {
     mounted() {
