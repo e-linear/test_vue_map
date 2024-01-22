@@ -1,0 +1,20 @@
+{
+  "name": "vue-map",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173"
+  },
+  "dependencies": {
+    "mapbox-gl": "^3.1.0",
+    "url": "^0.11.3",
+    "vue": "^3.2.38",
+    "webpack-dev-server": "^2.9.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.3",
+    "vite": "^3.0.9",
+    "node": ">=16.0.0 <17.0.0"
+  }
+}
